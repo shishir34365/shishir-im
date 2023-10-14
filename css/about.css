@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#20242d ;
+}
+@font-face{
+    font-family:shishir ;
+    src: url('fonts/Nunito-VariableFont_wght.ttf');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+
+}
+.mid{
+    width: 80%;
+    margin: auto;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.left h2{
+    color: #0eb9cb;
+    margin-top: 22px;
+}
+.right{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.right ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 0px;
+    margin: 0px 10px;
+    
+}
+.right ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family:tahoma;
+}
+.right ul li a:hover {
+color: #0eb9cb;
+text-shadow:0px 0px 15px #0eb9cb ;
+}
+
